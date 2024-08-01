@@ -1,0 +1,149 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "API documentation for the Flask Product API",
+      "version": "1.0.0",
+      "title": "Flask Product API"
+    },
+    "host": "localhost:5000",
+    "basePath": "/",
+    "tags": [
+      {
+        "name": "products",
+        "description": "Operations related to products"
+      }
+    ],
+    "paths": {
+      "/products": {
+        "get": {
+          "tags": ["products"],
+          "summary": "Get all products",
+          "responses": {
+            "200": {
+              "description": "A list of products"
+            }
+          }
+        },
+        "post": {
+          "tags": ["products"],
+          "summary": "Create a new product",
+          "parameters": [
+            {
+              "in": "body",
+              "name": "body",
+              "description": "Product object",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/Product"
+              }
+            }
+          ],
+          "responses": {
+            "201": {
+              "description": "Product created"
+            }
+          }
+        }
+      },
+      "/products/{product_id}": {
+        "get": {
+          "tags": ["products"],
+          "summary": "Get a product by ID",
+          "parameters": [
+            {
+              "name": "product_id",
+              "in": "path",
+              "required": true,
+              "type": "integer"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Product details"
+            },
+            "404": {
+              "description": "Product not found"
+            }
+          }
+        },
+        "put": {
+          "tags": ["products"],
+          "summary": "Update a product",
+          "parameters": [
+            {
+              "name": "product_id",
+              "in": "path",
+              "required": true,
+              "type": "integer"
+            },
+            {
+              "in": "body",
+              "name": "body",
+              "description": "Product object",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/Product"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Product updated"
+            },
+            "404": {
+              "description": "Product not found"
+            }
+          }
+        },
+        "delete": {
+          "tags": ["products"],
+          "summary": "Delete a product",
+          "parameters": [
+            {
+              "name": "product_id",
+              "in": "path",
+              "required": true,
+              "type": "integer"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Product deleted"
+            },
+            "404": {
+              "description": "Product not found"
+            }
+          }
+        }
+      }
+    },
+    "definitions": {
+      "Product": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "example": 1
+          },
+          "name": {
+            "type": "string",
+            "example": "Smartphone"
+          },
+          "description": {
+            "type": "string",
+            "example": "A powerful smartphone with advanced features."
+          },
+          "price": {
+            "type": "number",
+            "example": 499.99
+          },
+          "quantity_available": {
+            "type": "integer",
+            "example": 100
+          }
+        }
+      }
+    }
+  }
+  

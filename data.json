@@ -1,0 +1,620 @@
+{
+    "Products": [
+        {
+            "id": 1,
+            "name": "Smartphone",
+            "description": "A powerful smartphone with advanced features.",
+            "price": 499,
+            "quantity_available": 100
+        },
+        {
+            "id": 3,
+            "name": "Weed",
+            "description": "High quality product with good high for more than 3 hours",
+            "price": 900,
+            "quantity_available": 20
+        },
+        {
+            "id": 4,
+            "name": "Wireless Headphones",
+            "description": "Comfortable wireless headphones with noise cancellation.",
+            "price": 199.99,
+            "quantity_available": 75
+        },
+        {
+            "id": 5,
+            "name": "Smartwatch",
+            "description": "A sleek smartwatch with fitness tracking features.",
+            "price": "149",
+            "quantity_available": "120"
+        },
+        {
+            "id": 6,
+            "name": "Tablet",
+            "description": "A versatile tablet with a high-resolution display.",
+            "price": 299.99,
+            "quantity_available": 80
+        },
+        {
+            "id": 7,
+            "name": "Gaming Console",
+            "description": "A next-generation gaming console with immersive graphics.",
+            "price": 499.99,
+            "quantity_available": 60
+        },
+        {
+            "id": 8,
+            "name": "4K TV",
+            "description": "A stunning 4K TV with vibrant colors and deep blacks.",
+            "price": 799.99,
+            "quantity_available": 40
+        },
+        {
+            "id": 9,
+            "name": "Bluetooth Speaker",
+            "description": "Portable Bluetooth speaker with excellent sound quality.",
+            "price": 79.99,
+            "quantity_available": 150
+        },
+        {
+            "id": 10,
+            "name": "Digital Camera",
+            "description": "A high-resolution digital camera for capturing beautiful photos.",
+            "price": 549.99,
+            "quantity_available": 30
+        },
+        {
+            "id": 11,
+            "name": "Air Fryer",
+            "description": "A compact air fryer for healthier cooking.",
+            "price": 129.99,
+            "quantity_available": 90
+        },
+        {
+            "id": 12,
+            "name": "E-Reader",
+            "description": "A lightweight e-reader with a glare-free screen.",
+            "price": 119.99,
+            "quantity_available": 65
+        },
+        {
+            "id": 13,
+            "name": "Portable Charger",
+            "description": "A high-capacity portable charger for on-the-go power.",
+            "price": 49.99,
+            "quantity_available": 200
+        },
+        {
+            "id": 14,
+            "name": "Coffee Maker",
+            "description": "A programmable coffee maker for fresh coffee every morning.",
+            "price": 89.99,
+            "quantity_available": 110
+        },
+        {
+            "id": 15,
+            "name": "Smart Thermostat",
+            "description": "A smart thermostat that learns your preferences over time.",
+            "price": 249.99,
+            "quantity_available": 45
+        },
+        {
+            "id": 16,
+            "name": "Fitness Tracker",
+            "description": "A fitness tracker to monitor your daily activities and health.",
+            "price": 79.99,
+            "quantity_available": 140
+        },
+        {
+            "id": 17,
+            "name": "Electric Toothbrush",
+            "description": "An electric toothbrush with multiple brushing modes.",
+            "price": 59.99,
+            "quantity_available": 180
+        },
+        {
+            "id": 18,
+            "name": "Gaming Chair",
+            "description": "A comfortable gaming chair with adjustable features.",
+            "price": 179.99,
+            "quantity_available": 35
+        },
+        {
+            "id": 19,
+            "name": "Stand Mixer",
+            "description": "A versatile stand mixer for baking and cooking.",
+            "price": 299.99,
+            "quantity_available": 25
+        },
+        {
+            "id": 20,
+            "name": "Smart Light Bulbs",
+            "description": "Color-changing smart light bulbs that can be controlled via an app.",
+            "price": 39.99,
+            "quantity_available": 220
+        },
+        {
+            "id": 21,
+            "name": "Electric Kettle",
+            "description": "A fast-boiling electric kettle with auto shut-off.",
+            "price": 39.99,
+            "quantity_available": 130
+        },
+        {
+            "id": 22,
+            "name": "Portable Air Conditioner",
+            "description": "A compact portable air conditioner for cooling small spaces.",
+            "price": 399.99,
+            "quantity_available": 20
+        },
+        {
+            "id": 23,
+            "name": "Instant Pot",
+            "description": "A multi-functional instant pot for quick and easy meals.",
+            "price": 89.99,
+            "quantity_available": 110
+        },
+        {
+            "id": 24,
+            "name": "Robotic Vacuum",
+            "description": "A smart robotic vacuum with scheduling features.",
+            "price": 299.99,
+            "quantity_available": 60
+        },
+        {
+            "id": 25,
+            "name": "Sous Vide Machine",
+            "description": "A precision sous vide machine for cooking meals to perfection.",
+            "price": 129.99,
+            "quantity_available": 45
+        },
+        {
+            "id": 26,
+            "name": "Smart Plug",
+            "description": "A smart plug that allows you to control devices from your phone.",
+            "price": 24.99,
+            "quantity_available": 180
+        },
+        {
+            "id": 27,
+            "name": "Home Security Camera",
+            "description": "A wireless home security camera with motion detection.",
+            "price": 149.99,
+            "quantity_available": 55
+        },
+        {
+            "id": 28,
+            "name": "Electric Grill",
+            "description": "An indoor electric grill with adjustable temperature settings.",
+            "price": 129.99,
+            "quantity_available": 70
+        },
+        {
+            "id": 29,
+            "name": "Water Filter Pitcher",
+            "description": "A water filter pitcher that improves taste and removes impurities.",
+            "price": 34.99,
+            "quantity_available": 140
+        },
+        {
+            "id": 31,
+            "name": "Food Processor",
+            "description": "A powerful food processor for chopping, slicing, and pureeing.",
+            "price": 249.99,
+            "quantity_available": 30
+        },
+        {
+            "id": 32,
+            "name": "Stand Mixer",
+            "description": "A heavy-duty stand mixer for all your baking needs.",
+            "price": 349.99,
+            "quantity_available": 40
+        },
+        {
+            "id": 33,
+            "name": "Smart Lock",
+            "description": "A smart lock that allows you to control access via smartphone.",
+            "price": 199.99,
+            "quantity_available": 50
+        },
+        {
+            "id": 34,
+            "name": "Cordless Drill",
+            "description": "A versatile cordless drill for home improvement projects.",
+            "price": 89.99,
+            "quantity_available": 75
+        },
+        {
+            "id": 35,
+            "name": "Outdoor Grill",
+            "description": "A large outdoor grill perfect for barbecues and gatherings.",
+            "price": 399.99,
+            "quantity_available": 25
+        },
+        {
+            "id": 36,
+            "name": "Electric Blanket",
+            "description": "A heated electric blanket for cozy nights.",
+            "price": 79.99,
+            "quantity_available": 60
+        },
+        {
+            "id": 37,
+            "name": "Massage Chair",
+            "description": "A luxurious massage chair with multiple massage modes.",
+            "price": 899.99,
+            "quantity_available": 15
+        },
+        {
+            "id": 38,
+            "name": "Bluetooth Earbuds",
+            "description": "Wireless Bluetooth earbuds with a built-in microphone.",
+            "price": "59",
+            "quantity_available": "9000"
+        },
+        {
+            "id": 39,
+            "name": "Portable Projector",
+            "description": "A compact projector for watching movies on the go.",
+            "price": 199.99,
+            "quantity_available": 35
+        },
+        {
+            "id": 40,
+            "name": "Car Vacuum Cleaner",
+            "description": "A handheld vacuum cleaner for keeping your car clean.",
+            "price": 49.99,
+            "quantity_available": 85
+        },
+        {
+            "id": 41,
+            "name": "Air Purifier",
+            "description": "An air purifier with HEPA filter for cleaner indoor air.",
+            "price": 159.99,
+            "quantity_available": 50
+        },
+        {
+            "id": 42,
+            "name": "Electric Shaver",
+            "description": "A high-quality electric shaver with multiple grooming options.",
+            "price": 99.99,
+            "quantity_available": 70
+        },
+        {
+            "id": 43,
+            "name": "Kitchen Scale",
+            "description": "A digital kitchen scale for precise measurements.",
+            "price": 29.99,
+            "quantity_available": 140
+        },
+        {
+            "id": 44,
+            "name": "Sewing Machine",
+            "description": "A versatile sewing machine for all your sewing projects.",
+            "price": 229.99,
+            "quantity_available": 25
+        },
+        {
+            "id": 45,
+            "name": "Bicycle",
+            "description": "A durable bicycle for commuting and exercise.",
+            "price": 299.99,
+            "quantity_available": 35
+        },
+        {
+            "id": 46,
+            "name": "Camping Tent",
+            "description": "A spacious camping tent with easy setup.",
+            "price": 179.99,
+            "quantity_available": 20
+        },
+        {
+            "id": 47,
+            "name": "Yoga Mat",
+            "description": "A non-slip yoga mat for comfortable workouts.",
+            "price": 39.99,
+            "quantity_available": 100
+        },
+        {
+            "id": 48,
+            "name": "Pet Carrier",
+            "description": "A comfortable and secure pet carrier for travel.",
+            "price": 69.99,
+            "quantity_available": 55
+        },
+        {
+            "id": 49,
+            "name": "Portable Generator",
+            "description": "A compact generator for reliable power supply during outages.",
+            "price": 499.99,
+            "quantity_available": 15
+        },
+        {
+            "id": 50,
+            "name": "Electric Scooter",
+            "description": "An electric scooter with a long-range battery.",
+            "price": 349.99,
+            "quantity_available": 30
+        },
+        {
+            "id": 51,
+            "name": "Blender",
+            "description": "A high-performance blender for smoothies and soups.",
+            "price": 89.99,
+            "quantity_available": 80
+        },
+        {
+            "id": 52,
+            "name": "Hiking Boots",
+            "description": "Durable hiking boots with excellent traction.",
+            "price": 129.99,
+            "quantity_available": 40
+        },
+        {
+            "id": 53,
+            "name": "Electric Bike",
+            "description": "An electric bike with pedal-assist technology.",
+            "price": 799.99,
+            "quantity_available": 10
+        },
+        {
+            "id": 54,
+            "name": "Fitness Dumbbells",
+            "description": "Adjustable dumbbells for strength training.",
+            "price": 99.99,
+            "quantity_available": 120
+        },
+        {
+            "id": 55,
+            "name": "Wall Clock",
+            "description": "A stylish wall clock with a classic design.",
+            "price": 24.99,
+            "quantity_available": 150
+        },
+        {
+            "id": 56,
+            "name": "Electric Grill Pan",
+            "description": "An electric grill pan for indoor grilling.",
+            "price": 89.99,
+            "quantity_available": 65
+        },
+        {
+            "id": 57,
+            "name": "Camera Tripod",
+            "description": "A sturdy tripod for stable camera shots.",
+            "price": 59.99,
+            "quantity_available": 75
+        },
+        {
+            "id": 58,
+            "name": "Outdoor Patio Heater",
+            "description": "A patio heater for extending outdoor enjoyment.",
+            "price": 239.99,
+            "quantity_available": 25
+        },
+        {
+            "id": 59,
+            "name": "Hair Dryer",
+            "description": "A powerful hair dryer with multiple heat settings.",
+            "price": 49.99,
+            "quantity_available": 100
+        },
+        {
+            "id": 60,
+            "name": "Electric Wine Opener",
+            "description": "An electric wine opener for effortless cork removal.",
+            "price": 39.99,
+            "quantity_available": 90
+        },
+        {
+            "id": 61,
+            "name": "Cordless Vacuum Cleaner",
+            "description": "A lightweight cordless vacuum cleaner with strong suction power.",
+            "price": 249.99,
+            "quantity_available": 40
+        },
+        {
+            "id": 62,
+            "name": "Waffle Maker",
+            "description": "A non-stick waffle maker for delicious, golden waffles.",
+            "price": 49.99,
+            "quantity_available": 100
+        },
+        {
+            "id": 63,
+            "name": "Oven Toaster",
+            "description": "A versatile oven toaster for baking, toasting, and broiling.",
+            "price": 89.99,
+            "quantity_available": 75
+        },
+        {
+            "id": 64,
+            "name": "Electric Screwdriver",
+            "description": "A battery-powered screwdriver with multiple bits for versatility.",
+            "price": 39.99,
+            "quantity_available": 130
+        },
+        {
+            "id": 65,
+            "name": "Portable Blender",
+            "description": "A compact blender ideal for making smoothies on the go.",
+            "price": 29.99,
+            "quantity_available": 150
+        },
+        {
+            "id": 66,
+            "name": "Personal Fan",
+            "description": "A small, portable fan for personal cooling.",
+            "price": 19.99,
+            "quantity_available": 200
+        },
+        {
+            "id": 67,
+            "name": "Digital Photo Frame",
+            "description": "A digital photo frame with a high-resolution display.",
+            "price": 129.99,
+            "quantity_available": 55
+        },
+        {
+            "id": 68,
+            "name": "Wireless Router",
+            "description": "A high-speed wireless router for fast and reliable internet.",
+            "price": 99.99,
+            "quantity_available": 80
+        },
+        {
+            "id": 69,
+            "name": "Ice Cream Maker",
+            "description": "An easy-to-use ice cream maker for homemade frozen treats.",
+            "price": 79.99,
+            "quantity_available": 45
+        },
+        {
+            "id": 70,
+            "name": "Slow Cooker",
+            "description": "A slow cooker for preparing flavorful, tender dishes.",
+            "price": 69.99,
+            "quantity_available": 90
+        },
+        {
+            "id": 71,
+            "name": "Portable Heater",
+            "description": "A compact heater for personal warmth in cold weather.",
+            "price": 59.99,
+            "quantity_available": 60
+        },
+        {
+            "id": 72,
+            "name": "Electric Juicer",
+            "description": "A powerful juicer for extracting fresh juice from fruits and vegetables.",
+            "price": 89.99,
+            "quantity_available": 70
+        },
+        {
+            "id": 73,
+            "name": "Portable Speaker",
+            "description": "A rugged portable speaker with waterproof features.",
+            "price": 149.99,
+            "quantity_available": 55
+        },
+        {
+            "id": 74,
+            "name": "Wireless Charging Pad",
+            "description": "A sleek wireless charging pad for compatible devices.",
+            "price": 39.99,
+            "quantity_available": 120
+        },
+        {
+            "id": 75,
+            "name": "Automatic Pet Feeder",
+            "description": "An automatic pet feeder with programmable feeding times.",
+            "price": 99.99,
+            "quantity_available": 35
+        },
+        {
+            "id": 76,
+            "name": "Smart Plugs",
+            "description": "Smart plugs that can be controlled via a mobile app.",
+            "price": 29.99,
+            "quantity_available": 140
+        },
+        {
+            "id": 77,
+            "name": "Portable Air Compressor",
+            "description": "A portable air compressor for inflating tires and other items.",
+            "price": 79.99,
+            "quantity_available": 50
+        },
+        {
+            "id": 78,
+            "name": "Electric Kettle",
+            "description": "A quick-boil electric kettle with temperature control.",
+            "price": 59.99,
+            "quantity_available": 90
+        },
+        {
+            "id": 79,
+            "name": "Hooded Blanket",
+            "description": "A cozy hooded blanket for warmth and comfort.",
+            "price": 49.99,
+            "quantity_available": 110
+        },
+        {
+            "id": 80,
+            "name": "Digital Kitchen Timer",
+            "description": "A kitchen timer with a large display and multiple settings.",
+            "price": 19.99,
+            "quantity_available": 150
+        },
+        {
+            "id": 81,
+            "name": "Wine Cooler",
+            "description": "A compact wine cooler with adjustable temperature settings.",
+            "price": 179.99,
+            "quantity_available": 30
+        },
+        {
+            "id": 82,
+            "name": "Electric Blanket",
+            "description": "A heated electric blanket with multiple heat settings.",
+            "price": 89.99,
+            "quantity_available": 60
+        },
+        {
+            "id": 83,
+            "name": "Portable Power Bank",
+            "description": "A high-capacity power bank for charging devices on the go.",
+            "price": 49.99,
+            "quantity_available": 140
+        },
+        {
+            "id": 84,
+            "name": "Shower Speaker",
+            "description": "A waterproof Bluetooth speaker for use in the shower.",
+            "price": 39.99,
+            "quantity_available": 100
+        },
+        {
+            "id": 85,
+            "name": "Desk Lamp",
+            "description": "A modern desk lamp with adjustable brightness.",
+            "price": 29.99,
+            "quantity_available": 120
+        },
+        {
+            "id": 86,
+            "name": "Camping Stove",
+            "description": "A portable camping stove for outdoor cooking.",
+            "price": 69.99,
+            "quantity_available": 40
+        },
+        {
+            "id": 87,
+            "name": "Kitchen Tongs",
+            "description": "Stainless steel kitchen tongs with a locking mechanism.",
+            "price": 14.99,
+            "quantity_available": 200
+        },
+        {
+            "id": 88,
+            "name": "Electric Blanket",
+            "description": "A soft electric blanket for added warmth during cold nights.",
+            "price": 99.99,
+            "quantity_available": 55
+        },
+        {
+            "id": 89,
+            "name": "Portable Fridge",
+            "description": "A compact portable fridge for camping and road trips.",
+            "price": 299.99,
+            "quantity_available": 25
+        },
+        {
+            "id": 90,
+            "name": "Electric Wine Opener",
+            "description": "An electric wine opener with a built-in foil cutter.",
+            "price": 44.99,
+            "quantity_available": 65
+        }
+    ]
+}
